@@ -66,7 +66,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc COPYRIGHT ChangeLog NEWS README
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/bes/modules/csv.conf
 %attr(755,root,root) %{_libdir}/bes/libcsv_module.so
-%dir %{_datadir}/hyrax
-%dir %{_datadir}/hyrax/data
 %dir %{_datadir}/hyrax/data/csv
 %{_datadir}/hyrax/data/csv/temperature.csv
