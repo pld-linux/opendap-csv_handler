@@ -5,24 +5,24 @@
 Summary:	CSV module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł CSV dla serwera danych OPeNDAP
 Name:		opendap-csv_handler
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/csv_handler-%{version}.tar.gz
-# Source0-md5:	a91f219182e71db8455a7ebd39ce4b71
+# Source0-md5:	59a3c15979143753a70efc5a1a23c6fc
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.10
-%{?with_tests:BuildRequires:	bes >= 3.9.0}
-BuildRequires:	bes-devel >= 3.9.0
+%{?with_tests:BuildRequires:	bes >= 3.13.0}
+BuildRequires:	bes-devel >= 3.13.0
 %{?with_tests:BuildRequires:	cppunit-devel >= 1.12.0}
-BuildRequires:	libdap-devel >= 3.11.0
+BuildRequires:	libdap-devel >= 3.13.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool >= 2:1.5
 BuildRequires:	pkgconfig
-Requires:	bes >= 3.9.0
-Requires:	libdap >= 3.11.0
+Requires:	bes >= 3.13.0
+Requires:	libdap >= 3.13.0
 # old name (single v3.5.1 release from 2010)
 Obsoletes:	opendap-csv_module
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
