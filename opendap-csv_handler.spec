@@ -6,11 +6,11 @@ Summary:	CSV module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł CSV dla serwera danych OPeNDAP
 Name:		opendap-csv_handler
 Version:	1.0.4
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/csv_handler-%{version}.tar.gz
-# Source0-md5:	59a3c15979143753a70efc5a1a23c6fc
+# Source0-md5:	50f86e47573d9179efc26f1b125cf2bd
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.10
